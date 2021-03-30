@@ -18,13 +18,6 @@ st.latex(r'''
 
 
 
-video_file = open('thesun.mp4', 'rb')
-video_bytes = video_file.read()
-
-st.video(video_bytes)
-
-
-
 
 from PIL import Image
 image = Image.open('solarsystem.jpg')
