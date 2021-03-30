@@ -74,11 +74,11 @@ with col1:
 
 with col2:
     st.header("Our Moon")
-    st.image("Moon.jpg")
+    st.image("moon.jpg")
 
 with col3:
     st.header("Mars")
-    st.image("Mars.jpg")
+    st.image("mars.jpg")
 
 
 
