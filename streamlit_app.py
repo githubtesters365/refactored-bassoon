@@ -16,7 +16,10 @@ st.latex(r'''
     a \left(\frac{1-r^{n}}{1-r}\right)
 ''')
 
+video_file = open('sun.mp4', 'rb')
+video_bytes = video_file.read()
 
+st.video(video_bytes)
 
 
 from PIL import Image
