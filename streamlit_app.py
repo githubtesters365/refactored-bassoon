@@ -1,9 +1,6 @@
 import streamlit as st
-import matplotlib.pyplot as plt
 import numpy as np
 import streamlit.components.v1 as components
-import plotly.figure_factory as ff
-
 
 
 option = st.selectbox(
