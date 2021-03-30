@@ -70,7 +70,7 @@ col1, col2, col3 = st.beta_columns(3)
 
 with col1:
     st.header("The Earth")
-    st.image("Earth.jpg")
+    st.image("earth.jpg")
 
 with col2:
     st.header("Our Moon")
